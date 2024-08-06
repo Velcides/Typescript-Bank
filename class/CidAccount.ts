@@ -1,5 +1,5 @@
-// Declaração da classe abstrata DioAccount
-export abstract class DioAccount {
+// Declaração da classe abstrata CidAccount
+export abstract class CidAccount {
     // Propriedades privadas e públicas da classe
     private name: string
     private readonly accountNumber: number

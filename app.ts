@@ -29,7 +29,7 @@ console.log(companyAccount);
 
 // Testando setName e getName
 companyAccount.setName('CID Inc.');
-console.log(companyAccount.getName()); // Deve imprimir 'DIO Inc.'
+console.log(companyAccount.getName()); // Deve imprimir 'CID Inc.'
 
 // Testando deposit
 companyAccount.deposit(200);

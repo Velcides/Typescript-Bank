@@ -1,12 +1,12 @@
-// Importa a classe DioAccount do arquivo DioAccount.ts
-import { DioAccount } from "./CidAccount"
+// Importa a classe CidAccount do arquivo CidAccount.ts
+import { CidAccount } from "./CidAccount"
 
-// Declaração da classe CompanyAccount que extende a classe DioAccount
-export class CompanyAccount extends DioAccount {
+// Declaração da classe CompanyAccount que extende a classe CidAccount
+export class CompanyAccount extends CidAccount {
 
     // Construtor da classe CompanyAccount que recebe dois parâmetros: name e accountNumber
     constructor(name: string, accountNumber: number) {
-        // Chama o construtor da classe pai (DioAccount) com os parâmetros recebidos
+        // Chama o construtor da classe pai (CidAccount) com os parâmetros recebidos
         super(name, accountNumber)
     }
 
