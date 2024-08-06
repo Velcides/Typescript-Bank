@@ -1,5 +1,5 @@
 // Importa a classe DioAccount do arquivo DioAccount.ts
-import { DioAccount } from "./DioAccount"
+import { DioAccount } from "./CidAccount"
 
 // Declaração da classe CompanyAccount que extende a classe DioAccount
 export class CompanyAccount extends DioAccount {
